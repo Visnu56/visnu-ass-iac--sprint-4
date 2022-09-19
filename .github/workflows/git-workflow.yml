@@ -1,6 +1,6 @@
 
 
-name: 'Terraform'
+name: 'manually destroy'
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
 
 jobs:
   terraform:
-    name: 'Terraform'
+    name: 'manual instance destroy'
     runs-on: ubuntu-latest
 
     steps:
